@@ -1,0 +1,22 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.image-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px auto;
+  width: 80%; /* Adjust width as needed */
+}
+
+.image-container img {
+  width: 24%; /* Adjust image width for desired layout */
+  margin: 5px;
+}
