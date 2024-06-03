@@ -3,113 +3,131 @@ const projects = [
     name: 'AutoText-Affect-Animation',
     image: '/main-images/auto-text.png',
     site: '',
-    code: ''
+    code: '',
   },
   {
     name: 'Background-Image-Scroll-Effect',
     image: '/main-images/background-scrolling.png',
     site: '',
-    code: ''
+    code: '',
   },
   {
     name: 'blurred-background',
     image: '/main-images/blurred-background-popup.png',
     site: '',
-    code: ''
+    code: '',
   },
   {
     name: 'digital-clock',
     image: '/main-images/digital-clock.png',
     site: '',
-    code: ''
+    code: '',
   },
   {
     name: 'Drum-kits',
-    image: '/main-images/Drump-kits.png',
+    image: '/main-images/Drum-kits.png',
     site: '',
-    code: ''
+    code: '',
   },
   {
     name: 'multiplication-app',
     image: '/main-images/multiplication-app.png',
     site: '',
-    code: ''
+    code: '',
   },
   {
     name: 'Random-color-generator',
     image: '/main-images/Random-color-generator.png',
     site: '',
-    code: ''
+    code: '',
   },
   {
     name: 'Random-pictures',
     image: '/main-images/Random-pictures.png',
     site: '',
-    code: ''
+    code: '',
   },
   {
     name: 'Realtime-charactor-counter',
     image: '/main-images/Realtime-charactor-counter.png',
     site: '',
-    code: ''
+    code: '',
   },
   {
     name: 'video-trailer-popup',
     image: '/main-images/video-trailer-popup.png',
     site: '',
-    code: ''
+    code: '',
   },
   {
     name: 'Heart-trail-animation',
     image: '/main-images/Heart-trail-animation.png',
     site: '',
-    code: ''
+    code: '',
   },
   {
-    name: 'AutoText-Affect-Animation',
-    image: '/main-images/auto-text.png',
-    site: 'https://lilycandoit.github.io/16-js-projects.github.io/AutoText-Affect-Animation',
-    code: 'https://lilycandoit.github.io/16-js-projects.github.io/AutoText-Affect-Animation'
+    name: 'Image-Search-App',
+    image: '/main-images/Image-Search-App.png',
+    site: '',
+    code: '',
   },
   {
-    name: 'AutoText-Affect-Animation',
-    image: '/main-images/auto-text.png',
-    site: 'https://lilycandoit.github.io/16-js-projects.github.io/AutoText-Affect-Animation',
-    code: 'https://lilycandoit.github.io/16-js-projects.github.io/AutoText-Affect-Animation'
+    name: 'Basic-Calulator',
+    image: '/main-images/Basic-Calulator.png',
+    site: '',
+    code: '',
   },
   {
-    name: 'AutoText-Affect-Animation',
-    image: '/main-images/auto-text.png',
-    site: 'https://lilycandoit.github.io/16-js-projects.github.io/AutoText-Affect-Animation',
-    code: 'https://lilycandoit.github.io/16-js-projects.github.io/AutoText-Affect-Animation'
+    name: 'Dice-Roll-Simulator',
+    image: '/main-images/Dice-Roll-Simulator.png',
+    site: '',
+    code: '',
   },
   {
-    name: 'AutoText-Affect-Animation',
-    image: '/main-images/auto-text.png',
-    site: 'https://lilycandoit.github.io/16-js-projects.github.io/AutoText-Affect-Animation',
-    code: 'https://lilycandoit.github.io/16-js-projects.github.io/AutoText-Affect-Animation'
+    name: 'Pomodoro-Timer',
+    image: '/main-images/Pomodoro-Timer.png',
+    site: '',
+    code: '',
   },
   {
-    name: 'AutoText-Affect-Animation',
-    image: '/main-images/auto-text.png',
-    site: 'https://lilycandoit.github.io/16-js-projects.github.io/AutoText-Affect-Animation',
-    code: 'https://lilycandoit.github.io/16-js-projects.github.io/AutoText-Affect-Animation'
+    name: 'Rock-Paper-Scissors-Game',
+    image: '/main-images/Rock-Paper-Scissors-Game.png',
+    site: '',
+    code: '',
   },
   {
-    name: 'AutoText-Affect-Animation',
-    image: '/main-images/auto-text.png',
-    site: 'https://lilycandoit.github.io/16-js-projects.github.io/AutoText-Affect-Animation',
-    code: 'https://lilycandoit.github.io/16-js-projects.github.io/AutoText-Affect-Animation'
+    name: 'Stopwatch',
+    image: '/main-images/Stopwatch.png',
+    site: '',
+    code: '',
+  },
+  {
+    name: 'Weather-App',
+    image: '/main-images/Weather-App.png',
+    site: '',
+    code: '',
+  },
+  {
+    name: 'Tabs-sections',
+    image: '/main-images/Tabs-sections.png',
+    site: '',
+    code: '',
+  },
+  {
+    name: 'Button-Ripple-Effect',
+    image: '/main-images/Button-Ripple-Effect.png',
+    site: '',
+    code: '',
   },
 ];
 
 document.addEventListener('DOMContentLoaded', () => {
   const projectsContainer = document.querySelector('.projects-container');
 
-  projects.forEach(project => {
+  projects.forEach((project) => {
     const projectElement = document.createElement('div');
     projectElement.classList.add('project');
-    
+
     projectElement.innerHTML = `
       <div class="content">
         <p class="project-name">${project.name}</p>
