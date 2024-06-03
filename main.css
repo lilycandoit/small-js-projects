@@ -4,19 +4,74 @@ body {
   padding: 20px;
 }
 
-h1 {
+/* .wrapper {
+  display: grid;
+  grid-template-columns: 2fr;
+} */
+
+h2 {
+  display: flex;
+  justify-content: center;
+}
+
+.projects-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.project {
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: lightblue;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 85%;
+  font-size: 0.875em;
+  color: #143d59;
+}
+
+.project-name {
+  font-family: 'Archivo', sans-serif;
+  font-weight: 700;
   text-align: center;
 }
 
-.image-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  margin: 20px auto;
-  width: 80%; /* Adjust width as needed */
+.project1-img:hover {
+  scale: 1.1;
 }
 
-.image-container img {
-  width: 24%; /* Adjust image width for desired layout */
-  margin: 5px;
+img {
+  width: 230px;
+  height: 100px;
+}
+
+.link-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+.link-buttons button {
+  width: 50px;
+  height: 20px;
+  color: white;
+  background-color: rgb(81, 81, 219);
+  border: none;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.link-buttons button:hover {
+  scale: 1.2;
 }
