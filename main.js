@@ -136,10 +136,10 @@ document.addEventListener('DOMContentLoaded', () => {
         </div>
       </div>
       <div class="link-buttons">
-        <a href="https://lilycandoit.github.io/16-js-projects.github.io/${project.name}" target="_blank" rel="noopener noreferrer">
+        <a href="https://lilycandoit.github.io/small-js-projects/${project.name}" target="_blank" rel="noopener noreferrer">
           <button>Site</button>
         </a>
-        <a href="https://github.com/lilycandoit/16-js-projects.github.io/tree/main/${project.name}" target="_blank" rel="noopener noreferrer">
+        <a href="https://github.com/lilycandoit/small-js-projects/tree/main/${project.name}" target="_blank" rel="noopener noreferrer">
           <button>Code</button>
         </a>
       </div>
