@@ -12,7 +12,7 @@ body {
   background-color: pink;
   padding: 20px 40px;
   border-radius: 5px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, .5);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
   text-decoration: none;
   color: black;
   position: relative;
@@ -32,7 +32,7 @@ body {
   height: 0px;
   left: var(--xPos);
   top: var(--yPos);
-  transform: translate( -50%, -50%);
+  transform: translate(-50%, -50%);
   transition: width 0.5s, height 0.5s;
 }
 

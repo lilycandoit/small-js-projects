@@ -31,12 +31,13 @@ function startTimer(){
 
 function stopTimer(){
   clearInterval(interval);
+  // to stop the timer regardless of remaining time.
 }
 
 function resetTimer(){
-  clearInterval(interval);
-  timeLeft = 1500;
-  updateTimer();
+  clearInterval(interval); // to reset the timer first
+  timeLeft = 1500; // back to initial time frame
+  updateTimer(); // to update in
 }
 
  startEl.addEventListener('click', startTimer);

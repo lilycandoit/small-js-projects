@@ -2,15 +2,15 @@ const buttonsEl = document.querySelectorAll('button');
 
 const inputEl = document.getElementById('result');
 
-for (let i=0; i<buttonsEl.length; i++){
+for (let i = 0; i < buttonsEl.length; i++) {
   buttonsEl[i].addEventListener('click', () => {
     const btnInput = buttonsEl[i].textContent;
 
     console.log(btnInput);
 
-    if(btnInput === 'C'){
+    if (btnInput === 'C') {
       clearResult();
-    } else if (btnInput === '='){
+    } else if (btnInput === '=') {
       calculateResult();
     } else {
       appendValue(btnInput);
@@ -18,15 +18,15 @@ for (let i=0; i<buttonsEl.length; i++){
   });
 }
 
-function clearResult(){
+function clearResult() {
   inputEl.value = '';
 }
 
-function calculateResult(){
+function calculateResult() {
   inputEl.value = eval(inputEl.value);
 }
 
-function appendValue(btnInput){
+function appendValue(btnInput) {
   inputEl.value += btnInput;
 }
 
