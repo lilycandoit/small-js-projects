@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  /* because the default will be  flex - direction: row */
+  align-items: center;
+  background-color: lightskyblue;
+}
+
+.image-container {
+  text-align: center;
+}
+
+.image-container img {
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  background-color: lightgray;
+  width: 300px;
+  height: 300px;
+  /* set background color with the same height and  width, so that it can show while waiting to the page to be loaded */
+
+}
+
+.btn {
+  background-color: slateblue;
+  border: none;
+  padding: 10px 20px;
+  color: white;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  cursor: pointer;z
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
